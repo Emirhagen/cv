@@ -1,0 +1,65 @@
+.cv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  order: 1;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+}
+
+.contact-info h3 {
+  display: none;
+}
+
+.contact-info dt {
+  display: none;
+}
+
+.profile-picture {
+  width: 100%;
+  order: 2;
+}
+
+.profile-picture img {
+  max-width: 200px;
+  height: auto;
+  border: none;
+  border-radius: 50%;
+}
+
+.about-me {
+  width: 100%;
+  max-width: 100%;
+}
+
+.background-info {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.education,
+.skills,
+.experience,
+.language {
+  border: none;
+  width: 100%;
+  border-top: 1px dashed var(--color-black);
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+  line-height: 2em;
+}
+
+.language dl {
+  padding: 20px;
+}
+
+.language dt {
+  font-weight: 600;
+}

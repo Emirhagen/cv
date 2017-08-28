@@ -1,0 +1,159 @@
+@import "reset.css";
+@import "base.css";
+
+.cv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  position: absolute;
+  margin: 0;
+  flex-direction: row;
+  padding-left: 20px;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  margin-top: 15px;
+  padding-bottom: 35px;
+  padding-top: 20px;
+  border-bottom: 1px dotted var(--color-black);
+}
+
+.profile-picture {
+  margin-top: 40px;
+  height: 100%;
+  width: 30%;
+  order: 1;
+}
+
+.profile-picture img {
+  max-width: 150px;
+  height: auto;
+  border: none;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+.about-me {
+  margin-top: 40px;
+  height: 100%;
+  min-width: 150px;
+  max-width: 40%;
+  width: 40%;
+  order: 2;
+}
+
+.contact-info {
+  order: 3;
+  margin-top: 40px;
+  height: 100%;
+  width: 30%;
+  min-width: 150px;
+  max-width: 300px;
+  line-height: 2em;
+}
+
+.contact-info h2 {
+  display: none;
+}
+
+.contact-info dl {
+  margin-top: 55px;
+  line-height: 1.5em;
+}
+
+.contact-info dt {
+  display: none;
+}
+
+.contact-info a {
+  color: var(--color-black);
+  font-style: normal;
+}
+
+.background-info {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.experience {
+  padding-top: 10px;
+  width: 30%;
+}
+
+.date {
+  margin-left: -10px;
+}
+
+.education {
+  width: 40%;
+  padding: 10px 20px 20px;
+  border-left: 1px dotted var(--color-black);
+  border-right: 1px dotted var(--color-black);
+}
+
+.skills {
+  font-size: 1.5em;
+  font-family: var(--font-family-headings);
+  padding-top: 10px;
+  width: 30%;
+}
+
+.bar {
+  background-color: var(--color-gray-65);
+  width: 200px;
+  height: 15px;
+  border-radius: 13px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  border-radius: 13px;
+}
+
+.java {
+  background-color: var(--color-red);
+  width: 70%;
+}
+
+.html {
+  background-color: var(--color-yellow);
+  width: 80%;
+}
+
+.javascript {
+  color: #fff;
+  background:
+    repeating-linear-gradient(
+      45deg,
+      var(--color-green),
+      var(--color-green) 10px,
+      var(--color-gray-65) 10px,
+      var(--color-gray-65) 20px
+    );
+  width: 100%;
+}
+
+.sql {
+  background-color: var(--color-blue);
+  width: 60%;
+}
+
+.php {
+  background-color: var(--color-purple);
+  width: 40%;
+}
+
+.language {
+  display: none;
+}
